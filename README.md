@@ -26,4 +26,4 @@ As alterações aos ficheiros não serão guardadas!
 
 ## Dificuldades e situações menos claras
 
-Sempre que tiverem dificuldade na instalação de alguma coisa ou algo que percebam menos bem digam-me pois a ideia é que tornar o mais claro possível os textos deste repositório
+Sempre que tiverem dificuldade na instalação de alguma coisa ou algo que percebam menos bem digam-me pois a ideia é tornar o mais claro possível os textos deste repositório
