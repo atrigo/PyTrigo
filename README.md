@@ -12,7 +12,7 @@ Existem vários packages para a realização de trabalhos de data science em Pyt
     3. Iniciar a aplicação Jupyter Lab ou Jupyter Notebook
 
 2. Hadoop
-    1. Software do software de Virtualização\
+    1. Instalação do software de Virtualização\
     Recomendo a instalação do software VirtualBox (https://www.virtualbox.org/), mas pode ser outro que permita correr máquinas virtuais.
     2. Download da máquina virtual da Cloudera (https://www.cloudera.com/downloads/quickstart_vms/5-13.html)
 
