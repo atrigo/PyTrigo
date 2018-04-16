@@ -4,18 +4,15 @@ Este repositório possui os conteúdos de apoio às aulas de Big Data
 
 ## Software necessário à execução dos trabalhos
 
-1. Python
-    1.1. Instalação do package Anaconda3 (https://repo.continuum.io/archive/Anaconda3-5.1.0-Windows-x86_64.exe) 
-  
-    1.2. Abrir a aplicação Anaconda Navigator
-   ![Anaconda3 Navigator](http://res.cloudinary.com/dbcauiwaz/image/upload/c_scale,w_512/v1523867285/anaconda-navigator.png)
-   
-    1.3. Iniciar a aplicação Jupyter Lab ou Jupyter Notebook
+1. Python Data Science\
+Existem vários packages para a realização de trabalhos de data science em Python. Para os exercícios a realizar no âmbito das aulas optou-se pelo package Anaconda da Continum Analytics.\
+    1.1. Instalação do package Anaconda3 (https://repo.continuum.io/archive/Anaconda3-5.1.0-Windows-x86_64.exe)\
+    1.2. Abrir a aplicação Anaconda Navigator\
+   ![Anaconda3 Navigator](http://res.cloudinary.com/dbcauiwaz/image/upload/c_scale,w_512/v1523867285/anaconda-navigator.png)\
+    1.3. Iniciar a aplicação Jupyter Lab ou Jupyter Notebook\
 
 2. Hadoop
-
-  2.1. Software do software de Virtualização
-    
+    2.1. Software do software de Virtualização
     Recomendo a instalação do software VirtualBox (https://www.virtualbox.org/), mas pode ser outro que premita correr máquinas virtuais.
     
   2.2. Download da máquina virtual da Cloudera (https://www.cloudera.com/downloads/quickstart_vms/5-13.html)
