@@ -30,4 +30,4 @@ Sempre que tiverem dificuldade na instalação de alguma coisa ou algo que perce
 
 Algumas dificuldades na instalação:
 
-1. Nome do diretorio de instalação não deverá conter caracteres acentuados ou espaços. Solução: Ver (https://docs.anaconda.com/anaconda/install/windows  e  https://docs.anaconda.com/anaconda/faq#how-do-i-get-anaconda-with-python-3-5).
+1. Nome do diretorio de instalação não deverá conter caracteres acentuados ou espaços. Ver (https://docs.anaconda.com/anaconda/install/windows  e  https://docs.anaconda.com/anaconda/faq#how-do-i-get-anaconda-with-python-3-5).
