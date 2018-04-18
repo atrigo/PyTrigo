@@ -27,3 +27,7 @@ As alterações aos ficheiros não serão guardadas!
 ## Dificuldades e situações menos claras
 
 Sempre que tiverem dificuldade na instalação de alguma coisa ou algo que percebam menos bem digam-me pois a ideia é tornar o mais claro possível os textos deste repositório
+
+Algumas dificuldades na instalação:
+
+1. Nome do diretorio de instalação não deverá conter caracteres acentuados ou espaços. Solução: Ver (https://docs.anaconda.com/anaconda/install/windows  e  https://docs.anaconda.com/anaconda/faq#how-do-i-get-anaconda-with-python-3-5).
