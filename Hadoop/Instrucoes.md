@@ -19,7 +19,7 @@ hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming.jar \
    -output /user/cloudera/output_new \
    -mapper /home/cloudera/wordcount_mapper.py \
    -reducer /home/cloudera/wordcount_reducer.py
-´´´
+```
 8. Verifique os resultados:
 hdfs dfs -cat /user/cloudera/output_new/part-00000
 9. Verifique o diretorio de output:
