@@ -13,11 +13,13 @@ hdfs dfs -put /home/cloudera/testfile2 /user/cloudera/input
 6. Visualize os ficheiros no HDFS
 hdfs dfs -ls /user/cloudera/input
 7. Corra o exemplo WordCount com os inputs e outputs definidos
+```
 hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming.jar \
    -input /user/cloudera/input \
    -output /user/cloudera/output_new \
    -mapper /home/cloudera/wordcount_mapper.py \
    -reducer /home/cloudera/wordcount_reducer.py
+´´´
 8. Verifique os resultados:
 hdfs dfs -cat /user/cloudera/output_new/part-00000
 9. Verifique o diretorio de output:
