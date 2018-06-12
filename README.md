@@ -14,26 +14,35 @@ Existem várias formas de o fazer, sendo aqui aparesentadas duas formas: atravé
 
 1. Distribuição Anaconda
 A vantagem da distribuição Anaconda é que oferece para além do Python um conjunto vasto de packages de suporte ao desenvolvimento de programas ligados à DataScience.
-    1. Instalação do package Anaconda3 (https://repo.continuum.io/archive/Anaconda3-5.1.0-Windows-x86_64.exe).\
-    2. Abrir a aplicação Anaconda Navigator\
+    1. Descarregue e instale o package Anaconda3 (https://repo.continuum.io/archive/Anaconda3-5.1.0-Windows-x86_64.exe).\
+    2. Durante a instalação siga as opções recomendadas
+    3. Abrir a aplicação Anaconda Navigator\
    ![Anaconda3 Navigator](http://res.cloudinary.com/dbcauiwaz/image/upload/c_scale,w_512/v1523867285/anaconda-navigator.png)
-    3. Iniciar a aplicação Jupyter Lab ou Jupyter Notebook
-
+    4. Iniciar a aplicação Jupyter Lab ou Jupyter Notebook
+    5. Caso no futuro deseje instalar packages que não estão disponíveis na instalação do anaconda por omissão, inicie uma consola do windows configurada para o Anaconda, a "Anaconda Prompt" (faça pesquisar no Windows) e corra o comando conda, que permite aceder aos packages disponibilizados pelo Anconda Cloud. Caso o package que deseja não esteja disponível aí corra, na mesma janela, o comando [pip](https://pypi.org/project/pip/), uma ferramenta de gestão de packages do próprio Python.
+    
 2. Python Software Foundation
-Para fazer a instalação do Python3 
+Para fazer a instalação do Python e dos packages associados à temática da DataScience deverá:
+    1. Descarregar o Python a partir do seguinte endereço https://www.python.org/ftp/python/3.6.5/python-3.6.5-amd64.exe
+    2. Após a instalação do Python abra uma consola do windows e escreva python. Verifique que está acorrer a versão que instalou. Após verificar saia desse ambiente escrevendo o comando exit().
+    3. De seguida utilize o comando [pip](https://pypi.org/project/pip/) para fazer a instalação dos packages necessários para executar os notebooks
+        3.1 pip install numpy
+        3.2 pip install scipy
+        3.3 pip install scikit-learn
+        3.4 pip install pandas
+    4. A instalação de outros packages no futuro é similar, utilizando o comando pip
 
+Poderá ainda ter a necessidade de fazer a instalação de algum package específico não disponibilizado no gestor de pacotes pip.
 
-
-
-As intruções de instalação são para o ambiente Windows. Para outros ambientes terá de consultar as páginas da Continum Analytics e da Python Software Foundation e seguir as instruções de instalação. Depois de a instalação estar feita a forma de trabalhar com a consola de Python e com o Jupyter Notebook é igual.
+As intruções de instalação são para o ambiente Windows. Para outros ambientes terá de consultar as páginas da Continum Analytics e da Python Software Foundation e seguir as instruções de instalação. Depois de a instalação estar feita a forma de trabalhar com a consola de Python e com o Jupyter Notebook é similar.
 
 ## Utilização do Jupyter Notebook
 
-A utilização do Jupyter Notebook é descrita no notebook "pytrigo-intro.ipynb". Para o abrir este notebook terá de utilizar a aplicação Jupyter Lab ou Jupyter Notebook, instaladas no ponto anterior, aceder à pasta que contém o ficheiro "pytrigo-intro.ipynb" e clicar duas vezes sobre ele.
+A utilização do Jupyter Notebook é descrita no notebook [pytrigo-intro.ipynb](pytrigo-intro.ipynb). Para o abrir este notebook terá de utilizar a aplicação Jupyter Lab ou Jupyter Notebook, instaladas no ponto anterior, aceder à pasta que contém o ficheiro [pytrigo-intro.ipynb](pytrigo-intro.ipynb) e clicar duas vezes sobre ele.
 
 ### Jupyter lab online
 
-Caso queiram abrir este repositório num jupytyer lab online podem fazê-lo utilizando a seguinte ligação:
+Caso queira abrir este repositório num jupytyer lab online podem fazê-lo utilizando a seguinte ligação:
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/atrigo/trigo-data-science.git/master?urlpath=lab)
 
@@ -42,27 +51,23 @@ As alterações aos ficheiros não serão guardadas!
 ## Ordem de aprendizagem dos conteúdos
 
 A ordem de aprendizagem dos contéudos é a seguinte:
-
-    Notebook de introdução ao Python (pytrigo-intro.ipynb)
-    Notebook sobre a biblioteca NumPy (pytrigo-numpy.ipynb)
-    Notebook sobre a biblioteca SciPy (pytrigo-scipy.ipynb)
-    Notebook sobre a biblioteca Pandas (pytrigo-pandas.ipynb)
-    Notebook sobre a biblioteca MatPlotLib (pytrigo-matplotlib.ipynb)
-
-Caso queira uma abordagem temática aos conteúdos a classificação sugerida é a seguinte:
-
-    Introdução (pytrigo-intro.ipynb)
-    Computação científica (biblioteca scipy)
-    
-Sendo uma introdução à DataScience alguns conteúdos mais avançados não são abordados, mas fica aqui a enumeração de alguns para o caso de querer proseguir com a sua aprendizagem:
-
-    Machine Learning
-    
-    BigData
+    * Introdução ao Python (pytrigo-intro.ipynb)
+    * Descrição das bibliotecas disponíveis no Python (pytrigo-bibliotecas)
+    * Package SciPy.org (computação científica)
+        * Introdução à biblioteca NumPy (pytrigo-numpy.ipynb)
+        * Introdução à biblioteca SciPy (pytrigo-scipy.ipynb)
+        * Introdução à biblioteca MatPlotLib (pytrigo-matplotlib.ipynb)
+        * Introdução à biblioteca Pandas (pytrigo-pandas.ipynb)
+    * Package Scikit (machine learning)
+        * Introdução à biblioteca Scikit (pytrigo-scikit-learn.ipynb)
+    * Package NetworX (manipulação de grafos)
+        * Introdução à biblioteca NetworkX (pytrigo-networkx.ipynb)
+    * Exemplos de utilização das bibliotecas acima
+        * Regressão linear (pytrigo-regressao.ipynb)
 
 ## Citação deste trabalho
 
-Agradeço que, caso estes notebooks sejam úteis para o vosso trabalho que dêem uma estrela ao projeto e que o citem da seguinte forma:
+Agradeço que, caso estes notebooks sejam úteis para o seu trabalho que dê uma estrela ao projeto e que o cite da seguinte forma:
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1226769.svg)](https://doi.org/10.5281/zenodo.1226769)
 
