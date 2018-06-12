@@ -51,19 +51,19 @@ As alterações aos ficheiros não serão guardadas!
 ## Ordem de aprendizagem dos conteúdos
 
 A ordem de aprendizagem dos contéudos é a seguinte:
-    * Introdução ao Python (pytrigo-intro.ipynb)
-    * Descrição das bibliotecas disponíveis no Python (pytrigo-bibliotecas)
-    * Package SciPy.org (computação científica)
-        * Introdução à biblioteca NumPy (pytrigo-numpy.ipynb)
-        * Introdução à biblioteca SciPy (pytrigo-scipy.ipynb)
-        * Introdução à biblioteca MatPlotLib (pytrigo-matplotlib.ipynb)
-        * Introdução à biblioteca Pandas (pytrigo-pandas.ipynb)
-    * Package Scikit (machine learning)
-        * Introdução à biblioteca Scikit (pytrigo-scikit-learn.ipynb)
-    * Package NetworX (manipulação de grafos)
-        * Introdução à biblioteca NetworkX (pytrigo-networkx.ipynb)
-    * Exemplos de utilização das bibliotecas acima
-        * Regressão linear (pytrigo-regressao.ipynb)
+* Introdução ao Python (pytrigo-intro.ipynb)
+* Descrição das bibliotecas disponíveis no Python (pytrigo-bibliotecas)
+* Package SciPy.org (computação científica)
+  * Introdução à biblioteca NumPy (pytrigo-numpy.ipynb)
+  * Introdução à biblioteca SciPy (pytrigo-scipy.ipynb)
+  * Introdução à biblioteca MatPlotLib (pytrigo-matplotlib.ipynb)
+  * Introdução à biblioteca Pandas (pytrigo-pandas.ipynb)
+* Package Scikit (machine learning)
+  * Introdução à biblioteca Scikit (pytrigo-scikit-learn.ipynb)
+* Package NetworX (manipulação de grafos)
+  * Introdução à biblioteca NetworkX (pytrigo-networkx.ipynb)
+* Exemplos de utilização das bibliotecas
+  * Regressão linear (pytrigo-regressao.ipynb)
 
 ## Citação deste trabalho
 
