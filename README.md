@@ -38,7 +38,7 @@ As intruções de instalação são para o ambiente Windows. Para outros ambient
 
 ## Utilização do Jupyter Notebook
 
-A utilização do Jupyter Notebook é descrita no notebook [pytrigo-intro.ipynb](pytrigo-intro.ipynb). Para o abrir este notebook terá de utilizar a aplicação Jupyter Lab ou Jupyter Notebook, instaladas no ponto anterior, aceder à pasta que contém o ficheiro [pytrigo-intro.ipynb](pytrigo-intro.ipynb) e clicar duas vezes sobre ele.
+A utilização do Jupyter Notebook é descrita no notebook [pytrigo-1-intro.ipynb](pytrigo-1-intro.ipynb). Para o abrir este notebook terá de utilizar a aplicação Jupyter Lab ou Jupyter Notebook, instaladas no ponto anterior, aceder à pasta que contém o ficheiro [pytrigo-1-intro.ipynb](pytrigo-1-intro.ipynb) e clicar duas vezes sobre ele.
 
 ### Jupyter lab online
 
@@ -51,19 +51,19 @@ As alterações aos ficheiros não serão guardadas!
 ## Ordem de aprendizagem dos conteúdos
 
 A ordem de aprendizagem dos contéudos é a seguinte:
-* Introdução ao Python (pytrigo-intro.ipynb)
-* Descrição das bibliotecas disponíveis no Python (pytrigo-bibliotecas)
+* Introdução ao Python (pytrigo-1-intro.ipynb)
+* Descrição das bibliotecas disponíveis no Python (pytrigo-2-bibliotecas)
 * Package SciPy.org (computação científica)
-  * Introdução à biblioteca NumPy (pytrigo-numpy.ipynb)
-  * Introdução à biblioteca SciPy (pytrigo-scipy.ipynb)
-  * Introdução à biblioteca MatPlotLib (pytrigo-matplotlib.ipynb)
-  * Introdução à biblioteca Pandas (pytrigo-pandas.ipynb)
+  * Introdução à biblioteca NumPy (pytrigo-3-numpy.ipynb)
+  * Introdução à biblioteca SciPy (pytrigo-4-scipy.ipynb)
+  * Introdução à biblioteca MatPlotLib (pytrigo-5-matplotlib.ipynb)
+  * Introdução à biblioteca Pandas (pytrigo-6-pandas.ipynb)
 * Package Scikit (machine learning)
-  * Introdução à biblioteca Scikit (pytrigo-scikit-learn.ipynb)
+  * Introdução à biblioteca Scikit (pytrigo-7-scikit-learn.ipynb)
 * Package NetworX (manipulação de grafos)
-  * Introdução à biblioteca NetworkX (pytrigo-networkx.ipynb)
+  * Introdução à biblioteca NetworkX (pytrigo-8-networkx.ipynb)
 * Exemplos de utilização das bibliotecas
-  * Regressão linear (pytrigo-regressao.ipynb)
+  * Regressão linear (pytrigo-ex1-regressao.ipynb)
 
 ## Citação deste trabalho
 
