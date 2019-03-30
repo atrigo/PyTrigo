@@ -23,7 +23,7 @@ A vantagem da distribuição Anaconda é que oferece para além do Python um con
     
 2. Python Software Foundation
 Para fazer a instalação do Python e dos packages associados à temática da DataScience deverá:
-    1. Descarregar o Python a partir do seguinte endereço https://www.python.org/ftp/python/3.6.5/python-3.6.5-amd64.exe
+    1. Descarregar o Python a partir do seguinte endereço https://www.python.org/downloads/
     2. Após a instalação do Python abra uma consola do windows e escreva python. Verifique que está acorrer a versão que instalou. Após verificar saia desse ambiente escrevendo o comando exit().
     3. De seguida utilize o comando [pip](https://pypi.org/project/pip/) para fazer a instalação dos packages necessários para executar os notebooks
         3.1 pip install numpy
