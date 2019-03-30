@@ -14,7 +14,7 @@ Existem várias formas de o fazer, sendo aqui aparesentadas duas formas: atravé
 
 1. Distribuição Anaconda
 A vantagem da distribuição Anaconda é que oferece para além do Python um conjunto vasto de packages de suporte ao desenvolvimento de programas ligados à DataScience.
-    1. Descarregue e instale o package Anaconda3 (https://repo.continuum.io/archive/Anaconda3-5.1.0-Windows-x86_64.exe).\
+    1. Descarregue e instale o package Anaconda3 (https://www.anaconda.com/distribution/).\
     2. Durante a instalação siga as opções recomendadas
     3. Abrir a aplicação Anaconda Navigator\
    ![Anaconda3 Navigator](http://res.cloudinary.com/dbcauiwaz/image/upload/c_scale,w_512/v1523867285/anaconda-navigator.png)
