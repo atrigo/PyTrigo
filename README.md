@@ -44,7 +44,7 @@ A utilização do Jupyter Notebook é descrita no notebook [pytrigo-1-intro.ipyn
 
 Caso queira abrir este repositório num jupytyer lab online podem fazê-lo utilizando a seguinte ligação:
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/atrigo/trigo-data-science.git/master?urlpath=lab)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/atrigo/pytrigo.git/master?urlpath=lab)
 
 As alterações aos ficheiros não serão guardadas!
 
