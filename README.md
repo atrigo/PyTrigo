@@ -48,6 +48,8 @@ Caso queira abrir este repositório num jupytyer lab online podem fazê-lo utili
 
 As alterações aos ficheiros não serão guardadas!
 
+A instalação ads bibliotecas é feita diretamente a partir do jupyter notebook (ex.: pip install numpy).
+
 ## Ordem de aprendizagem dos conteúdos
 
 A ordem de aprendizagem dos contéudos é a seguinte:
