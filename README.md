@@ -57,15 +57,20 @@ A ordem de aprendizagem dos contéudos é a seguinte:
 * Descrição das bibliotecas disponíveis no Python (pytrigo-2-bibliotecas)
 * Package SciPy.org (computação científica)
   * Introdução à biblioteca NumPy (pytrigo-3-numpy.ipynb)
-  * Introdução à biblioteca SciPy (pytrigo-4-scipy.ipynb)
+  * Introdução à biblioteca Pandas (pytrigo-4-pandas.ipynb)
   * Introdução à biblioteca MatPlotLib (pytrigo-5-matplotlib.ipynb)
-  * Introdução à biblioteca Pandas (pytrigo-6-pandas.ipynb)
+  * Introdução à biblioteca SciPy (pytrigo-6-scipy.ipynb)
+* Bases de dados (SQLite e PostgreSQL)
+  * Introdução à biblioteca SQLite (pytrigo-7-sqlite3.ipynb)
+  * Introdução à biblioteca Psycopg2 (pytrigo-8-psycopg2.ipynb)
 * Package Scikit (machine learning)
-  * Introdução à biblioteca Scikit (pytrigo-7-scikit-learn.ipynb)
+  * Introdução à biblioteca Scikit (pytrigo-9-scikit-learn.ipynb)
 * Package NetworX (manipulação de grafos)
-  * Introdução à biblioteca NetworkX (pytrigo-8-networkx.ipynb)
+  * Introdução à biblioteca NetworkX (pytrigo-10-networkx.ipynb)
+* Package Beautiful Soup (web scraping)
+  * Introdução à biblioteca Beautiful Soup (pytrigo-11-BeautifulSoup.ipynb)
 * Exemplos de utilização das bibliotecas
-  * Regressão linear (pytrigo-ex1-regressao.ipynb)
+  * Regressão linear (pytrigo-regressao.ipynb)
 
 ## Citação deste trabalho
 

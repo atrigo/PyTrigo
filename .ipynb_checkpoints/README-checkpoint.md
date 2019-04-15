@@ -14,7 +14,7 @@ Existem várias formas de o fazer, sendo aqui aparesentadas duas formas: atravé
 
 1. Distribuição Anaconda
 A vantagem da distribuição Anaconda é que oferece para além do Python um conjunto vasto de packages de suporte ao desenvolvimento de programas ligados à DataScience.
-    1. Descarregue e instale o package Anaconda3 (https://repo.continuum.io/archive/Anaconda3-5.1.0-Windows-x86_64.exe).\
+    1. Descarregue e instale o package Anaconda3 (https://www.anaconda.com/distribution/ ).\
     2. Durante a instalação siga as opções recomendadas
     3. Abrir a aplicação Anaconda Navigator\
    ![Anaconda3 Navigator](http://res.cloudinary.com/dbcauiwaz/image/upload/c_scale,w_512/v1523867285/anaconda-navigator.png)
@@ -23,7 +23,7 @@ A vantagem da distribuição Anaconda é que oferece para além do Python um con
     
 2. Python Software Foundation
 Para fazer a instalação do Python e dos packages associados à temática da DataScience deverá:
-    1. Descarregar o Python a partir do seguinte endereço https://www.python.org/ftp/python/3.6.5/python-3.6.5-amd64.exe
+    1. Descarregar o Python a partir do seguinte endereço https://www.python.org/downloads/
     2. Após a instalação do Python abra uma consola do windows e escreva python. Verifique que está acorrer a versão que instalou. Após verificar saia desse ambiente escrevendo o comando exit().
     3. De seguida utilize o comando [pip](https://pypi.org/project/pip/) para fazer a instalação dos packages necessários para executar os notebooks
         3.1 pip install numpy
@@ -38,30 +38,39 @@ As intruções de instalação são para o ambiente Windows. Para outros ambient
 
 ## Utilização do Jupyter Notebook
 
-A utilização do Jupyter Notebook é descrita no notebook [pytrigo-intro.ipynb](pytrigo-intro.ipynb). Para o abrir este notebook terá de utilizar a aplicação Jupyter Lab ou Jupyter Notebook, instaladas no ponto anterior, aceder à pasta que contém o ficheiro [pytrigo-intro.ipynb](pytrigo-intro.ipynb) e clicar duas vezes sobre ele.
+A utilização do Jupyter Notebook é descrita no notebook [pytrigo-1-intro.ipynb](pytrigo-1-intro.ipynb). Para o abrir este notebook terá de utilizar a aplicação Jupyter Lab ou Jupyter Notebook, instaladas no ponto anterior, aceder à pasta que contém o ficheiro [pytrigo-1-intro.ipynb](pytrigo-1-intro.ipynb) e clicar duas vezes sobre ele.
 
 ### Jupyter lab online
 
 Caso queira abrir este repositório num jupytyer lab online podem fazê-lo utilizando a seguinte ligação:
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/atrigo/trigo-data-science.git/master?urlpath=lab)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/atrigo/pytrigo/master)
 
 As alterações aos ficheiros não serão guardadas!
+
+A instalação ads bibliotecas é feita diretamente a partir do jupyter notebook (ex.: pip install numpy).
 
 ## Ordem de aprendizagem dos conteúdos
 
 A ordem de aprendizagem dos contéudos é a seguinte:
-    Introdução ao Python (pytrigo-intro.ipynb)
-    Descrição das bibliotecas disponíveis no Python (pytrigo-bibliotecas)
-    Package SciPy.org (computação científica)
-        Introdução à biblioteca NumPy (pytrigo-numpy.ipynb)
-        Introdução à biblioteca SciPy (pytrigo-scipy.ipynb)
-        Introdução à biblioteca MatPlotLib (pytrigo-matplotlib.ipynb)
-        Introdução à biblioteca Pandas (pytrigo-pandas.ipynb)
-    Package Scikit (machine learning)
-        Introdução à biblioteca Scikit (pytrigo-scikit-learn.ipynb)
-    Package NetworX (manipulação de grafos)
-        Introdução à biblioteca NetworkX (pytrigo-networkx.ipynb)
+* Introdução ao Python (pytrigo-1-intro.ipynb)
+* Descrição das bibliotecas disponíveis no Python (pytrigo-2-bibliotecas)
+* Package SciPy.org (computação científica)
+  * Introdução à biblioteca NumPy (pytrigo-3-numpy.ipynb)
+  * Introdução à biblioteca Pandas (pytrigo-4-pandas.ipynb)
+  * Introdução à biblioteca MatPlotLib (pytrigo-5-matplotlib.ipynb)
+  * Introdução à biblioteca SciPy (pytrigo-6-scipy.ipynb)
+* Bases de dados (SQLite e PostgreSQL)
+  * Introdução à biblioteca SQLite (pytrigo-7-sqlite3.ipynb)
+  * Introdução à biblioteca Psycopg2 (pytrigo-8-psycopg2.ipynb)
+* Package Scikit (machine learning)
+  * Introdução à biblioteca Scikit (pytrigo-9-scikit-learn.ipynb)
+* Package NetworX (manipulação de grafos)
+  * Introdução à biblioteca NetworkX (pytrigo-10-networkx.ipynb)
+* Package Beautiful Soup (web scraping)
+  * Introdução à biblioteca Beautiful Soup (pytrigo-11-BeautifulSoup.ipynb)
+* Exemplos de utilização das bibliotecas
+  * Regressão linear (pytrigo-regressao.ipynb)
 
 ## Citação deste trabalho
 
