@@ -1,0 +1,10 @@
+,period,short_desc,temp,desc,temp_num,noite
+0,Overnight,Partly Cloudy,Low: 60 °F,"Overnight: Partly cloudy, with a low around 60. West wind 9 to 15 mph, with gusts as high as 20 mph. ",60,True
+1,Saturday,Sunny thenSunny andBreezy,High: 77 °F,"Saturday: Sunny, with a high near 77. Breezy, with a west wind 7 to 12 mph increasing to 18 to 23 mph in the afternoon. Winds could gust as high as 30 mph. ",77,False
+2,SaturdayNight,Mostly Clearand Breezythen PartlyCloudy,Low: 58 °F,"Saturday Night: Increasing clouds, with a low around 58. Breezy, with a west wind 17 to 23 mph, with gusts as high as 30 mph. ",58,True
+3,Sunday,Mostly Sunny,High: 69 °F,"Sunday: Mostly sunny, with a high near 69. West southwest wind 10 to 17 mph, with gusts as high as 22 mph. ",69,False
+4,SundayNight,Mostly Clear,Low: 54 °F,"Sunday Night: Mostly clear, with a low around 54. Northwest wind 9 to 17 mph, with gusts as high as 22 mph. ",54,True
+5,Monday,Sunny thenSunny andBreezy,High: 71 °F,"Monday: Sunny, with a high near 71. Breezy. ",71,False
+6,MondayNight,Clear andBreezy thenClear,Low: 56 °F,"Monday Night: Clear, with a low around 56. Breezy. ",56,True
+7,Tuesday,Sunny,High: 74 °F,"Tuesday: Sunny, with a high near 74.",74,False
+8,TuesdayNight,Clear,Low: 55 °F,"Tuesday Night: Clear, with a low around 55.",55,True
